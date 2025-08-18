@@ -7,7 +7,7 @@ license = "MIT"
 repository = "https://github.com/p4ymak/reversible"
 description = "A generic wrapper struct that provides reversible editing capabilities.."
 readme = "README.md"
-categories = ["data-structures", "configuration"]
+categories = ["data-structures", "config"]
 keywords = ["commit", "revert", "state", "generic", "wrapper"]
 
 [dependencies]
