@@ -1,5 +1,7 @@
 # `Reversible<T>`
 
+[![Latest version](https://img.shields.io/crates/v/reversible.svg)](https://crates.io/crates/reversible)
+
 A generic wrapper struct that provides reversible editing capabilities for values of type `T: Default + Debug + Clone`.
 
 ## Features
