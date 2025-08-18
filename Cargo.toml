@@ -2,6 +2,13 @@
 name = "reversible"
 version = "0.1.0"
 edition = "2024"
+authors = ["Roman Chumak <p4ymak@yandex.ru>"]
+license = "MIT"
+repository = "https://github.com/p4ymak/reversible"
+description = "A generic wrapper struct that provides reversible editing capabilities.."
+readme = "README.md"
+categories = ["data-structures", "configuration"]
+keywords = ["commit", "revert", "state", "generic", "wrapper"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"], optional = true}
