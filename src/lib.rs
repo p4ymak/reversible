@@ -6,6 +6,7 @@ use std::fmt::Debug;
 mod tests;
 
 #[cfg_attr(feature = "serde", derive(Serialize, Deserialize))]
+#[derive(Clone)]
 pub struct Reversible<T: Default + Debug + Clone> {
     #[cfg_attr(feature = "serde", serde(flatten))]
     data: T,
