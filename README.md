@@ -10,13 +10,6 @@ A generic wrapper struct that provides reversible editing capabilities for value
 - Optional Serde support for serialization/deserialization (with `serde` feature)
 - Implements `AsRef<T>` and `AsMut<T>` for transparent access to the original and changed data.
 
-## Design Purpose
-This structure is useful for scenarios where you need:
-- To track changes separately from original data
-- Lazy cloning to avoid unnecessary clones
-- Transparent access via `AsRef`/`AsMut`
-- Optional (de)serialization of only the original state
-
 ## Example
 
 ```rust
