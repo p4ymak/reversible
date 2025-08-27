@@ -57,6 +57,11 @@ impl<T: Default + Debug + Clone> Reversible<T> {
         }
     }
 
+    /// Mutable reference to Data for some cases
+    pub fn as_mut_data(&mut self) -> &mut T {
+        &mut self.data
+    }
+
     /// Save Edited Value
     /// # Example
     /// ```
